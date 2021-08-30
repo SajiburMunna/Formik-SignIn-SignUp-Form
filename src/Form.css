@@ -40,3 +40,8 @@ button {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
+
+.box {
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}

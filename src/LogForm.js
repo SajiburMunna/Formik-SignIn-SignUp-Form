@@ -26,7 +26,7 @@ const validate = (values) => {
   if (!values.password) {
     errors.password = "Required";
   } else if (values.password.length < 8) {
-    errors.password = "Must be 8 characters or gater";
+    errors.password = "Must be 8 characters or greater";
   }
 
   return errors;
