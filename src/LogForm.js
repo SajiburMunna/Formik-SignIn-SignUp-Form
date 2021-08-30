@@ -97,7 +97,10 @@ const LogForm = () => {
                 Sign Up
               </button>
             </p>
-            <a href=""> Forgot Password?</a>
+            <a style={{ color: "red" }} href="">
+              {" "}
+              Forgot Password?
+            </a>
           </fieldset>
         </div>
       )}
