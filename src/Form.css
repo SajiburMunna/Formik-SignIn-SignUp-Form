@@ -1,0 +1,41 @@
+body {
+  color: white;
+  background-image: url(./backG.jpg);
+  background-size: cover;
+  padding: 70px;
+  background-attachment: fixed;
+}
+.div-center {
+  width: 400px;
+  margin: auto;
+}
+label {
+  margin-right: 10px;
+  color: white;
+  text-align: left;
+}
+input {
+  border: none;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  margin-bottom: 20px;
+  height: 20px;
+}
+
+.required {
+  color: red;
+}
+button {
+  border: none;
+  width: 80px;
+  text-align: center;
+  height: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
